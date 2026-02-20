@@ -1,0 +1,52 @@
+# Variáveis de ambiente
+.env
+.env.local
+.env.production
+appsettings.Development.json
+appsettings.local.json
+appsettings.json
+teste.json
+
+# Dependências do .NET
+[Bb]in/
+[Oo]bj/
+.vs/
+.vscode/
+.launchSettings.json
+
+# Projetos específicos
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.csproj.user
+
+# Banco de dados
+*.db
+*.mdf
+*.ldf
+sqlite3
+
+# Logs
+*.log
+*.log.*
+
+# Build/Publicação
+/publish/
+/publish-linux/
+/output/
+[Dd]ebug/
+[Rr]elease/
+*.nupkg
+
+# Outros
+Templates/
+test_cliente.sh
+validar_*.md
+
+# Rider/IDE
+.idea/
+*.sln.iml
+
+# macOS
+.DS_Store
